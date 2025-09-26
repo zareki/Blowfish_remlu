@@ -1,26 +1,26 @@
 disabled = false
-languageCode = "es"
-languageName = "Spanish"
+languageCode = "en"
+languageName = "English"
 weight = 1
-title = "Hogar Relu"
+title = "Relu Home"
 
 [params]
-  displayName = "ES"
-  isoCode = "es"
+  displayName = "EN"
+  isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
   # logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
-  description = "Fotolog personal experimental"
-  copyright = "@jos.aml 2024, Derechos Reservados"
+  description = "Experimental personal fotolog"
+  copyright = "@jos.aml 2024, all rights reserved"
 
  [params.author]
    name = "@jos.aml"
    email = "jose.ml@zoho.com"
 #   image = "img/blowfish_logo.png"
 #   imageQuality = 96
-   headline = "Forografía, células y mis queridas mascotas"
-#   bio = "Sitio personal dedicado a compartir fotos con mi querida familia"
+   headline = "Photography, cells and my dear pets"
+#   bio = "A little bit about you"
    links = [
      { email = "mailto:jose.ml@zoho.com" },
      { link = "https://remlu.cc/" },

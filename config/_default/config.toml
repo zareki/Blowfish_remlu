@@ -3,14 +3,16 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish" 
-baseURL = "https://your_domain.com/"
+baseURL = "https://remusia.uk"
 defaultContentLanguage = "es"
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
 enableRobotsTXT = true
-paginate = 10
 summaryLength = 0
+
+[pagination]
+  pagerSize = 10
 
 buildDrafts = false
 buildFuture = false
