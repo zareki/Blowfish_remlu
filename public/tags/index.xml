@@ -1,12 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Blowfish</title>
+    <title>Tags on Hogar Relu</title>
     <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on Blowfish</description>
+    <description>Recent content in Tags on Hogar Relu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <copyright>© 2024 </copyright>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>jose.ml@zoho.com (@jos.aml)</managingEditor>
+    <webMaster>jose.ml@zoho.com (@jos.aml)</webMaster>
+    <copyright>@jos.aml 2024, Derechos Reservados</copyright>
+    <lastBuildDate>Wed, 17 Sep 2025 07:28:57 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Blog</title>
+      <link>http://localhost:1313/tags/blog/</link>
+      <pubDate>Wed, 17 Sep 2025 07:28:57 +0000</pubDate>
+      <author>jose.ml@zoho.com (@jos.aml)</author>
+      <guid>http://localhost:1313/tags/blog/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Example</title>
+      <link>http://localhost:1313/tags/example/</link>
+      <pubDate>Wed, 17 Sep 2025 07:28:57 +0000</pubDate>
+      <author>jose.ml@zoho.com (@jos.aml)</author>
+      <guid>http://localhost:1313/tags/example/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>First-Post</title>
+      <link>http://localhost:1313/tags/first-post/</link>
+      <pubDate>Wed, 17 Sep 2025 07:28:57 +0000</pubDate>
+      <author>jose.ml@zoho.com (@jos.aml)</author>
+      <guid>http://localhost:1313/tags/first-post/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>

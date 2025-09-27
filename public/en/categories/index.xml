@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on </title>
+    <title>Categories on Relu Home</title>
     <link>http://localhost:1313/en/categories/</link>
-    <description>Recent content in Categories on </description>
+    <description>Recent content in Categories on Relu Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 </copyright>
+    <managingEditor>jose.ml@zoho.com (@jos.aml)</managingEditor>
+    <webMaster>jose.ml@zoho.com (@jos.aml)</webMaster>
+    <copyright>@jos.aml 2024, all rights reserved</copyright>
     <atom:link href="http://localhost:1313/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    
   </channel>
 </rss>
