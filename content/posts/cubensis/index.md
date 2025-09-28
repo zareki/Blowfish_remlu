@@ -3,12 +3,13 @@ title: "Psilocybe Cubensis"
 date: 2025-09-17T07:28:57Z
 draft: false
 description: "Post de prueba, comprobando la funcionalidad"
-tags: ["blog", "first-post", "example"]
-categories: ["General"]
-featured_image: "DSC_52.jpg"
+tags: ["cultivo", "hongos", "psilocibina"]
+categories: ["biologia"]
+featured_image: "feautured.jpg"
+featured_image_caption: "Caption Blah Blah"
 ---
 
-# Cubensis
+## Cubensis
 
 Un día se me dio por experimentar con el cultivo de setas. Investigué la forma legal de obtenerlas y aprendí sobre el principio activo Psilocibina y el cultivo de estos hongos. 
 
@@ -19,5 +20,5 @@ No es que yo sea una persona dada al consumo de sustancias, pero no estoy cerrad
 Aquí se ve el cultivo humedecido por condensación. Por debajo hay perlita que ayuda a retener la humedad. Se ve el cuerpo fructífero inicial del hongo sobre el micelio.
 
 Fotos de cultivo de Seta Cubensis, variante ***"Ecuatoriana"***.
-![Sample Image](DSC_5275.jpg "Cubensis 1")
-![Sample Image](DSC_5276.jpg "Cubensis 2")
+![Image](DSC_5275.jpg "Cubensis 1")
+![Image](DSC_5276.jpg "Cubensis 2")

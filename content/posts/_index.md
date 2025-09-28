@@ -1,5 +1,5 @@
 ---
-title: "Mi Blog"
+title: "Relfexiones"
 description: "Todas mis entradas y reflexiones"
 ---
 

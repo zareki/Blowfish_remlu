@@ -40,8 +40,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.eef4b5114cbb440619a33542eb56e1532480dac4746b0523f53a19eff930ba60143e19383f311e48b71bf8f24a3ddd394052eb6bbe1d156a17dc201517f095d2.css"
-    integrity="sha512-7vS1EUy7RAYZozVC61bhUySA2sR0awUj9ToZ7/kwumAUPhk4PzEeSLcb&#43;PJKPd05QFLra74dFWoX3CAVF/CV0g==">
+    href="/css/main.bundle.min.eee3bcb8624792ef6ee800a9c0f99145edb24cf9fb349045e49d95eb1289387ea6a2b7f96905c4c0431bed1e3ee197dd582fb9b20e5cb93d69b86b2f2118c15f.css"
+    integrity="sha512-7uO8uGJHku9u6ACpwPmRRe2yTPn7NJBF5J2V6xKJOH6morf5aQXEwEMb7R4&#43;4ZfdWC&#43;5sg5cuT1puGsvIRjBXw==">
 
   
   
@@ -120,11 +120,11 @@
     
       
         
+          <link href="https://remlu.cc/posts/" rel="me">
+        
       
     
       
-        
-          <link href="https://remlu.cc/" rel="me">
         
       
     
@@ -272,7 +272,7 @@
   
   class="flex items-center hover:text-primary-600 dark:hover:text-primary-400">
   
-  <p class="text-base font-medium" title="Mi Blog">
+  <p class="text-base font-medium" title="Relfexiones">
     Blog
   </p>
 </a>
@@ -454,7 +454,7 @@
     
     class="flex items-center hover:text-primary-600 dark:hover:text-primary-400">
     
-    <p class="text-bg font-bg" title="Mi Blog">
+    <p class="text-bg font-bg" title="Relfexiones">
       Blog
     </p>
   </a>
@@ -475,6 +475,16 @@
 
 
 
+
+  <script>
+    (function () {
+      var $mainmenu = $(".main-menu");
+      var path = window.location.pathname;
+      $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+        $(e).children("p").addClass("active");
+      });
+    })();
+  </script>
 
 
     
@@ -499,7 +509,7 @@
     
     
       <p class="text-sm text-neutral-500 dark:text-neutral-400">
-          @jos.aml 2024, Derechos Reservados
+          @jos.aml 2025, Derechos Reservados
       </p>
     
 

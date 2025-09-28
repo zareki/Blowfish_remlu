@@ -42,8 +42,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.eef4b5114cbb440619a33542eb56e1532480dac4746b0523f53a19eff930ba60143e19383f311e48b71bf8f24a3ddd394052eb6bbe1d156a17dc201517f095d2.css"
-    integrity="sha512-7vS1EUy7RAYZozVC61bhUySA2sR0awUj9ToZ7/kwumAUPhk4PzEeSLcb&#43;PJKPd05QFLra74dFWoX3CAVF/CV0g==">
+    href="/css/main.bundle.min.efbb379c95414cf0865b11f6e6bda881f0aeb5c41eee64afd11516733cbedb35bc2818eff561bdf596de2b5c9eb1000fa8c6ef836d4871bd3c7b9936cce2b941.css"
+    integrity="sha512-77s3nJVBTPCGWxH25r2ogfCutcQe7mSv0RUWczy&#43;2zW8KBjv9WG99ZbeK1yesQAPqMbvg21Icb08e5k2zOK5QQ==">
 
   
   
@@ -408,6 +408,16 @@
 
 
 
+  <script>
+    (function () {
+      var $mainmenu = $(".main-menu");
+      var path = window.location.pathname;
+      $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+        $(e).children("p").addClass("active");
+      });
+    })();
+  </script>
+
 
     
     <div class="relative flex flex-col grow">
@@ -563,6 +573,66 @@
 
   
   
+    <div class="flex flex-row flex-wrap items-center">
+      
+        
+      
+        
+          
+            
+              <a class="relative mt-[0.5rem] me-2" href="/categories/general/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    General
+  </span>
+</span>
+
+              </a>
+            
+          
+        
+      
+        
+      
+        
+          
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/blog/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Blog
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/first-post/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    First-Post
+  </span>
+</span>
+
+              </a>
+            
+              <a class="relative mt-[0.5rem] me-2" href="/tags/example/">
+                <span class="flex cursor-pointer">
+  <span
+    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Example
+  </span>
+</span>
+
+              </a>
+            
+          
+        
+      
+    </div>
+  
 
   
   
@@ -594,7 +664,7 @@
     
     
       <p class="text-sm text-neutral-500 dark:text-neutral-400">
-          @jos.aml 2024, Derechos Reservados
+          @jos.aml 2025, Derechos Reservados
       </p>
     
 
