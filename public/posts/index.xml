@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mi Blog on Hogar Relu</title>
-    <link>http://localhost:37107/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Mi Blog on Hogar Relu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <managingEditor>jose.ml@zoho.com (@jos.aml)</managingEditor>
     <webMaster>jose.ml@zoho.com (@jos.aml)</webMaster>
     <copyright>@jos.aml 2024, Derechos Reservados</copyright>
-    <lastBuildDate>Fri, 26 Sep 2025 14:23:31 +0200</lastBuildDate><atom:link href="http://localhost:37107/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Sep 2025 14:23:31 +0200</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Galapagos</title>
-      <link>http://localhost:37107/posts/galapagos/</link>
+      <link>http://localhost:1313/posts/galapagos/</link>
       <pubDate>Fri, 26 Sep 2025 14:23:31 +0200</pubDate>
       <author>jose.ml@zoho.com (@jos.aml)</author>
-      <guid>http://localhost:37107/posts/galapagos/</guid>
+      <guid>http://localhost:1313/posts/galapagos/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Psilocybe Cubensis</title>
-      <link>http://localhost:37107/posts/cubensis/</link>
+      <link>http://localhost:1313/posts/cubensis/</link>
       <pubDate>Wed, 17 Sep 2025 07:28:57 +0000</pubDate>
       <author>jose.ml@zoho.com (@jos.aml)</author>
-      <guid>http://localhost:37107/posts/cubensis/</guid>
+      <guid>http://localhost:1313/posts/cubensis/</guid>
       <description></description>
       
     </item>
