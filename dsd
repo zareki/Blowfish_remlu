@@ -1,0 +1,634 @@
+[33mcommit 72421b652726fa79587b241dc4f2cac052609de3[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Remusia <remusia@remusia.uk>
+Date:   Sun Sep 28 13:01:00 2025 +0200
+
+    todo mejorado y funcionado salvo que no logro que aparezca los thumbails con fetured-image
+
+[1mdiff --git a/assets/img/background.svg b/assets/img/background.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a3dc3e7[m
+[1m--- /dev/null[m
+[1m+++ b/assets/img/background.svg[m
+[36m@@ -0,0 +1,574 @@[m
+[32m+[m[32m﻿<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"[m
+[32m+[m[32m  style="margin:auto;background:rgba(NaN, NaN, NaN, 0);display:block;z-index:1;position:relative"[m
+[32m+[m[32m  width="1084" height="322" preserveAspectRatio="xMidYMid" viewBox="0 0 1084 322">[m
+[32m+[m[32m  <defs>[m
+[32m+[m[32m    <pattern id="pid-0.7735807359934106" x="0" y="0" width="345.6" height="345.6"[m
+[32m+[m[32m      patternUnits="userSpaceOnUse">[m
+[32m+[m[32m      <g transform="scale(1.35)">[m
+[32m+[m[32m        <g>[m
+[32m+[m[32m          <line x1="237.6288884328494" x2="201.39714008747956" y1="119.05338354492488"[m
+[32m+[m[32m            y2="155.28513189029474" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="237.6288884328494" x2="201.39714008747956" y1="-392.9466164550751"[m
+[32m+[m[32m            y2="-356.71486810970526" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="493.6288884328494" x2="457.39714008747956" y1="-392.9466164550751"[m
+[32m+[m[32m            y2="-356.71486810970526" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="749.6288884328494" x2="713.3971400874796" y1="-392.9466164550751"[m
+[32m+[m[32m            y2="-356.71486810970526" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="237.6288884328494" x2="201.39714008747956" y1="-136.94661645507512"[m
+[32m+[m[32m            y2="-100.71486810970526" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="493.6288884328494" x2="457.39714008747956" y1="-136.94661645507512"[m
+[32m+[m[32m            y2="-100.71486810970526" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="749.6288884328494" x2="713.3971400874796" y1="-136.94661645507512"[m
+[32m+[m[32m            y2="-100.71486810970526" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="237.6288884328494" x2="201.39714008747956" y1="119.05338354492488"[m
+[32m+[m[32m            y2="155.28513189029474" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="493.6288884328494" x2="457.39714008747956" y1="119.05338354492488"[m
+[32m+[m[32m            y2="155.28513189029474" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="749.6288884328494" x2="713.3971400874796" y1="119.05338354492488"[m
+[32m+[m[32m            y2="155.28513189029474" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="244.43797352167968" x2="179.25167385613412" y1="196.21419032492787"[m
+[32m+[m[32m            y2="261.40048999047343" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="244.43797352167968" x2="179.25167385613412" y1="-315.78580967507213"[m
+[32m+[m[32m            y2="-250.59951000952657" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="500.4379735216797" x2="435.2516738561341" y1="-315.78580967507213"[m
+[32m+[m[32m            y2="-250.59951000952657" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="756.4379735216796" x2="691.2516738561342" y1="-315.78580967507213"[m
+[32m+[m[32m            y2="-250.59951000952657" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="244.43797352167968" x2="179.25167385613412" y1="-59.78580967507213"[m
+[32m+[m[32m            y2="5.400489990473432" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="500.4379735216797" x2="435.2516738561341" y1="-59.78580967507213"[m
+[32m+[m[32m            y2="5.400489990473432" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="756.4379735216796" x2="691.2516738561342" y1="-59.78580967507213"[m
+[32m+[m[32m            y2="5.400489990473432" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="244.43797352167968" x2="179.25167385613412" y1="196.21419032492787"[m
+[32m+[m[32m            y2="261.40048999047343" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="500.4379735216797" x2="435.2516738561341" y1="196.21419032492787"[m
+[32m+[m[32m            y2="261.40048999047343" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="756.4379735216796" x2="691.2516738561342" y1="196.21419032492787"[m
+[32m+[m[32m            y2="261.40048999047343" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="219.6724359102308" x2="209.2181431749452" y1="92.85808081141191"[m
+[32m+[m[32m            y2="103.31237354669749" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="219.6724359102308" x2="209.2181431749452" y1="-419.1419191885881"[m
+[32m+[m[32m            y2="-408.6876264533025" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="475.6724359102308" x2="465.2181431749452" y1="-419.1419191885881"[m
+[32m+[m[32m            y2="-408.6876264533025" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="731.6724359102308" x2="721.2181431749452" y1="-419.1419191885881"[m
+[32m+[m[32m            y2="-408.6876264533025" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="219.6724359102308" x2="209.2181431749452" y1="-163.14191918858808"[m
+[32m+[m[32m            y2="-152.68762645330253" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="475.6724359102308" x2="465.2181431749452" y1="-163.14191918858808"[m
+[32m+[m[32m            y2="-152.68762645330253" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="731.6724359102308" x2="721.2181431749452" y1="-163.14191918858808"[m
+[32m+[m[32m            y2="-152.68762645330253" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="219.6724359102308" x2="209.2181431749452" y1="92.85808081141191"[m
+[32m+[m[32m            y2="103.31237354669749" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="475.6724359102308" x2="465.2181431749452" y1="92.85808081141191"[m
+[32m+[m[32m            y2="103.31237354669749" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="731.6724359102308" x2="721.2181431749452" y1="92.85808081141191"[m
+[32m+[m[32m            y2="103.31237354669749" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="112.00565118011832" x2="71.15817744773324" y1="56.63419812919665"[m
+[32m+[m[32m            y2="97.48167186158173" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="112.00565118011832" x2="71.15817744773324" y1="-455.36580187080335"[m
+[32m+[m[32m            y2="-414.51832813841827" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="368.0056511801183" x2="327.15817744773324" y1="-455.36580187080335"[m
+[32m+[m[32m            y2="-414.51832813841827" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="624.0056511801183" x2="583.1581774477332" y1="-455.36580187080335"[m
+[32m+[m[32m            y2="-414.51832813841827" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="112.00565118011832" x2="71.15817744773324" y1="-199.36580187080335"[m
+[32m+[m[32m            y2="-158.51832813841827" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="368.0056511801183" x2="327.15817744773324" y1="-199.36580187080335"[m
+[32m+[m[32m            y2="-158.51832813841827" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="624.0056511801183" x2="583.1581774477332" y1="-199.36580187080335"[m
+[32m+[m[32m            y2="-158.51832813841827" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="112.00565118011832" x2="71.15817744773324" y1="56.63419812919665"[m
+[32m+[m[32m            y2="97.48167186158173" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="368.0056511801183" x2="327.15817744773324" y1="56.63419812919665"[m
+[32m+[m[32m            y2="97.48167186158173" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="624.0056511801183" x2="583.1581774477332" y1="56.63419812919665"[m
+[32m+[m[32m            y2="97.48167186158173" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="60.932966336476014" x2="49.388821076756514" y1="125.65681060957188"[m
+[32m+[m[32m            y2="137.20095586929136" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="60.932966336476014" x2="49.388821076756514" y1="-386.3431893904281"[m
+[32m+[m[32m            y2="-374.79904413070864" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="316.932966336476" x2="305.3888210767565" y1="-386.3431893904281"[m
+[32m+[m[32m            y2="-374.79904413070864" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="572.932966336476" x2="561.3888210767565" y1="-386.3431893904281"[m
+[32m+[m[32m            y2="-374.79904413070864" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="60.932966336476014" x2="49.388821076756514" y1="-130.3431893904281"[m
+[32m+[m[32m            y2="-118.79904413070864" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="316.932966336476" x2="305.3888210767565" y1="-130.3431893904281"[m
+[32m+[m[32m            y2="-118.79904413070864" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="572.932966336476" x2="561.3888210767565" y1="-130.3431893904281"[m
+[32m+[m[32m            y2="-118.79904413070864" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="60.932966336476014" x2="49.388821076756514" y1="125.65681060957188"[m
+[32m+[m[32m            y2="137.20095586929136" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="316.932966336476" x2="305.3888210767565" y1="125.65681060957188"[m
+[32m+[m[32m            y2="137.20095586929136" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="572.932966336476" x2="561.3888210767565" y1="125.65681060957188"[m
+[32m+[m[32m            y2="137.20095586929136" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="103.78310212459807" x2="35.08486945593138" y1="-2.328164446496814"[m
+[32m+[m[32m            y2="66.37006822216988" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="103.78310212459807" x2="35.08486945593138" y1="-514.3281644464968"[m
+[32m+[m[32m            y2="-445.6299317778301" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="359.7831021245981" x2="291.08486945593137" y1="-514.3281644464968"[m
+[32m+[m[32m            y2="-445.6299317778301" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="615.783102124598" x2="547.0848694559314" y1="-514.3281644464968"[m
+[32m+[m[32m            y2="-445.6299317778301" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="103.78310212459807" x2="35.08486945593138" y1="-258.3281644464968"[m
+[32m+[m[32m            y2="-189.6299317778301" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="359.7831021245981" x2="291.08486945593137" y1="-258.3281644464968"[m
+[32m+[m[32m            y2="-189.6299317778301" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="615.783102124598" x2="547.0848694559314" y1="-258.3281644464968"[m
+[32m+[m[32m            y2="-189.6299317778301" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="103.78310212459807" x2="35.08486945593138" y1="-2.328164446496814"[m
+[32m+[m[32m            y2="66.37006822216988" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="359.7831021245981" x2="291.08486945593137" y1="-2.328164446496814"[m
+[32m+[m[32m            y2="66.37006822216988" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="615.783102124598" x2="547.0848694559314" y1="-2.328164446496814"[m
+[32m+[m[32m            y2="66.37006822216988" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="103.78310212459807" x2="35.08486945593138" y1="253.67183555350317"[m
+[32m+[m[32m            y2="322.3700682221699" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="211.69894364075495" x2="194.13528259328754" y1="166.21741462144607"[m
+[32m+[m[32m            y2="183.78107566891347" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="211.69894364075495" x2="194.13528259328754" y1="-345.7825853785539"[m
+[32m+[m[32m            y2="-328.21892433108655" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="467.6989436407549" x2="450.13528259328757" y1="-345.7825853785539"[m
+[32m+[m[32m            y2="-328.21892433108655" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="723.6989436407549" x2="706.1352825932876" y1="-345.7825853785539"[m
+[32m+[m[32m            y2="-328.21892433108655" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="211.69894364075495" x2="194.13528259328754" y1="-89.78258537855393"[m
+[32m+[m[32m            y2="-72.21892433108653" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="467.6989436407549" x2="450.13528259328757" y1="-89.78258537855393"[m
+[32m+[m[32m            y2="-72.21892433108653" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="723.6989436407549" x2="706.1352825932876" y1="-89.78258537855393"[m
+[32m+[m[32m            y2="-72.21892433108653" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="211.69894364075495" x2="194.13528259328754" y1="166.21741462144607"[m
+[32m+[m[32m            y2="183.78107566891347" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="467.6989436407549" x2="450.13528259328757" y1="166.21741462144607"[m
+[32m+[m[32m            y2="183.78107566891347" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="723.6989436407549" x2="706.1352825932876" y1="166.21741462144607"[m
+[32m+[m[32m            y2="183.78107566891347" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="44.012515207413756" x2="6.2920050630466875" y1="153.79537767995515"[m
+[32m+[m[32m            y2="191.5158878243222" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="44.012515207413756" x2="6.2920050630466875" y1="-358.20462232004485"[m
+[32m+[m[32m            y2="-320.4841121756778" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="300.01251520741374" x2="262.2920050630467" y1="-358.20462232004485"[m
+[32m+[m[32m            y2="-320.4841121756778" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="556.0125152074138" x2="518.2920050630466" y1="-358.20462232004485"[m
+[32m+[m[32m            y2="-320.4841121756778" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="44.012515207413756" x2="6.2920050630466875" y1="-102.20462232004485"[m
+[32m+[m[32m            y2="-64.48411217567781" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="300.01251520741374" x2="262.2920050630467" y1="-102.20462232004485"[m
+[32m+[m[32m            y2="-64.48411217567781" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="556.0125152074138" x2="518.2920050630466" y1="-102.20462232004485"[m
+[32m+[m[32m            y2="-64.48411217567781" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="44.012515207413756" x2="6.2920050630466875" y1="153.79537767995515"[m
+[32m+[m[32m            y2="191.5158878243222" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="300.01251520741374" x2="262.2920050630467" y1="153.79537767995515"[m
+[32m+[m[32m            y2="191.5158878243222" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="556.0125152074138" x2="518.2920050630466" y1="153.79537767995515"[m
+[32m+[m[32m            y2="191.5158878243222" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="105.49237048043514" x2="31.549625942354083" y1="123.41684480916788"[m
+[32m+[m[32m            y2="197.35958934724894" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="105.49237048043514" x2="31.549625942354083" y1="-388.58315519083214"[m
+[32m+[m[32m            y2="-314.64041065275103" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="361.49237048043517" x2="287.54962594235406" y1="-388.58315519083214"[m
+[32m+[m[32m            y2="-314.64041065275103" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="617.4923704804352" x2="543.549625942354" y1="-388.58315519083214"[m
+[32m+[m[32m            y2="-314.64041065275103" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="105.49237048043514" x2="31.549625942354083" y1="-132.58315519083212"[m
+[32m+[m[32m            y2="-58.64041065275106" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="361.49237048043517" x2="287.54962594235406" y1="-132.58315519083212"[m
+[32m+[m[32m            y2="-58.64041065275106" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="617.4923704804352" x2="543.549625942354" y1="-132.58315519083212"[m
+[32m+[m[32m            y2="-58.64041065275106" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="105.49237048043514" x2="31.549625942354083" y1="123.41684480916788"[m
+[32m+[m[32m            y2="197.35958934724894" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="361.49237048043517" x2="287.54962594235406" y1="123.41684480916788"[m
+[32m+[m[32m            y2="197.35958934724894" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="617.4923704804352" x2="543.549625942354" y1="123.41684480916788"[m
+[32m+[m[32m            y2="197.35958934724894" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <animateTransform attributeName="transform" type="translate" values="0 0;-256 256"[m
+[32m+[m[32m            keyTimes="0;1" repeatCount="indefinite" dur="10s"></animateTransform>[m
+[32m+[m[32m        </g>[m
+[32m+[m[32m        <g>[m
+[32m+[m[32m          <line x1="95.73622575770466" x2="50.085335235319484" y1="20.45659654328417"[m
+[32m+[m[32m            y2="66.10748706566935" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="95.73622575770466" x2="50.085335235319484" y1="-491.54340345671585"[m
+[32m+[m[32m            y2="-445.8925129343306" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="351.7362257577047" x2="306.08533523531946" y1="-491.54340345671585"[m
+[32m+[m[32m            y2="-445.8925129343306" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="607.7362257577047" x2="562.0853352353195" y1="-491.54340345671585"[m
+[32m+[m[32m            y2="-445.8925129343306" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="95.73622575770466" x2="50.085335235319484" y1="-235.54340345671582"[m
+[32m+[m[32m            y2="-189.89251293433065" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="351.7362257577047" x2="306.08533523531946" y1="-235.54340345671582"[m
+[32m+[m[32m            y2="-189.89251293433065" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="607.7362257577047" x2="562.0853352353195" y1="-235.54340345671582"[m
+[32m+[m[32m            y2="-189.89251293433065" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="95.73622575770466" x2="50.085335235319484" y1="20.45659654328417"[m
+[32m+[m[32m            y2="66.10748706566935" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="351.7362257577047" x2="306.08533523531946" y1="20.45659654328417"[m
+[32m+[m[32m            y2="66.10748706566935" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="607.7362257577047" x2="562.0853352353195" y1="20.45659654328417"[m
+[32m+[m[32m            y2="66.10748706566935" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="263.34308373797757" x2="226.59561736370148" y1="112.42933995479353"[m
+[32m+[m[32m            y2="149.17680632906962" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="263.34308373797757" x2="226.59561736370148" y1="-399.57066004520647"[m
+[32m+[m[32m            y2="-362.8231936709304" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="519.3430837379776" x2="482.5956173637015" y1="-399.57066004520647"[m
+[32m+[m[32m            y2="-362.8231936709304" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="775.3430837379776" x2="738.5956173637014" y1="-399.57066004520647"[m
+[32m+[m[32m            y2="-362.8231936709304" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="263.34308373797757" x2="226.59561736370148" y1="-143.57066004520647"[m
+[32m+[m[32m            y2="-106.82319367093038" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="519.3430837379776" x2="482.5956173637015" y1="-143.57066004520647"[m
+[32m+[m[32m            y2="-106.82319367093038" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="775.3430837379776" x2="738.5956173637014" y1="-143.57066004520647"[m
+[32m+[m[32m            y2="-106.82319367093038" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="263.34308373797757" x2="226.59561736370148" y1="112.42933995479353"[m
+[32m+[m[32m            y2="149.17680632906962" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="519.3430837379776" x2="482.5956173637015" y1="112.42933995479353"[m
+[32m+[m[32m            y2="149.17680632906962" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="775.3430837379776" x2="738.5956173637014" y1="112.42933995479353"[m
+[32m+[m[32m            y2="149.17680632906962" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="7.343083737977565" x2="-29.40438263629852" y1="112.42933995479353"[m
+[32m+[m[32m            y2="149.17680632906962" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="29.5343611349199" x2="-26.261040392985034" y1="205.16777076655512"[m
+[32m+[m[32m            y2="260.96317229446004" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="29.5343611349199" x2="-26.261040392985034" y1="-306.8322292334449"[m
+[32m+[m[32m            y2="-251.03682770553996" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="285.5343611349199" x2="229.73895960701498" y1="-306.8322292334449"[m
+[32m+[m[32m            y2="-251.03682770553996" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="541.5343611349199" x2="485.738959607015" y1="-306.8322292334449"[m
+[32m+[m[32m            y2="-251.03682770553996" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="29.5343611349199" x2="-26.261040392985034" y1="-50.83222923344488"[m
+[32m+[m[32m            y2="4.963172294460037" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="285.5343611349199" x2="229.73895960701498" y1="-50.83222923344488"[m
+[32m+[m[32m            y2="4.963172294460037" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="541.5343611349199" x2="485.738959607015" y1="-50.83222923344488"[m
+[32m+[m[32m            y2="4.963172294460037" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="29.5343611349199" x2="-26.261040392985034" y1="205.16777076655512"[m
+[32m+[m[32m            y2="260.96317229446004" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="285.5343611349199" x2="229.73895960701498" y1="205.16777076655512"[m
+[32m+[m[32m            y2="260.96317229446004" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="541.5343611349199" x2="485.738959607015" y1="205.16777076655512"[m
+[32m+[m[32m            y2="260.96317229446004" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="235.025028503587" x2="173.48946106938683" y1="23.306929884424335"[m
+[32m+[m[32m            y2="84.84249731862451" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="235.025028503587" x2="173.48946106938683" y1="-488.69307011557567"[m
+[32m+[m[32m            y2="-427.1575026813755" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="491.025028503587" x2="429.48946106938683" y1="-488.69307011557567"[m
+[32m+[m[32m            y2="-427.1575026813755" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="747.025028503587" x2="685.4894610693868" y1="-488.69307011557567"[m
+[32m+[m[32m            y2="-427.1575026813755" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="235.025028503587" x2="173.48946106938683" y1="-232.69307011557567"[m
+[32m+[m[32m            y2="-171.1575026813755" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="491.025028503587" x2="429.48946106938683" y1="-232.69307011557567"[m
+[32m+[m[32m            y2="-171.1575026813755" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="747.025028503587" x2="685.4894610693868" y1="-232.69307011557567"[m
+[32m+[m[32m            y2="-171.1575026813755" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="235.025028503587" x2="173.48946106938683" y1="23.306929884424335"[m
+[32m+[m[32m            y2="84.84249731862451" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="491.025028503587" x2="429.48946106938683" y1="23.306929884424335"[m
+[32m+[m[32m            y2="84.84249731862451" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="747.025028503587" x2="685.4894610693868" y1="23.306929884424335"[m
+[32m+[m[32m            y2="84.84249731862451" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="225.00990918130768" x2="200.62370409686488" y1="210.1052181599721"[m
+[32m+[m[32m            y2="234.4914232444149" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="225.00990918130768" x2="200.62370409686488" y1="-301.8947818400279"[m
+[32m+[m[32m            y2="-277.50857675558507" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="481.00990918130765" x2="456.6237040968649" y1="-301.8947818400279"[m
+[32m+[m[32m            y2="-277.50857675558507" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="737.0099091813076" x2="712.6237040968649" y1="-301.8947818400279"[m
+[32m+[m[32m            y2="-277.50857675558507" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="225.00990918130768" x2="200.62370409686488" y1="-45.89478184002789"[m
+[32m+[m[32m            y2="-21.508576755585096" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="481.00990918130765" x2="456.6237040968649" y1="-45.89478184002789"[m
+[32m+[m[32m            y2="-21.508576755585096" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="737.0099091813076" x2="712.6237040968649" y1="-45.89478184002789"[m
+[32m+[m[32m            y2="-21.508576755585096" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="225.00990918130768" x2="200.62370409686488" y1="210.1052181599721"[m
+[32m+[m[32m            y2="234.4914232444149" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="481.00990918130765" x2="456.6237040968649" y1="210.1052181599721"[m
+[32m+[m[32m            y2="234.4914232444149" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="737.0099091813076" x2="712.6237040968649" y1="210.1052181599721"[m
+[32m+[m[32m            y2="234.4914232444149" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="171.55017713954658" x2="102.05334080042758" y1="78.55895711807653"[m
+[32m+[m[32m            y2="148.05579345719553" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="171.55017713954658" x2="102.05334080042758" y1="-433.44104288192347"[m
+[32m+[m[32m            y2="-363.94420654280447" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="427.5501771395466" x2="358.0533408004276" y1="-433.44104288192347"[m
+[32m+[m[32m            y2="-363.94420654280447" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="683.5501771395466" x2="614.0533408004276" y1="-433.44104288192347"[m
+[32m+[m[32m            y2="-363.94420654280447" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="171.55017713954658" x2="102.05334080042758" y1="-177.44104288192347"[m
+[32m+[m[32m            y2="-107.94420654280447" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="427.5501771395466" x2="358.0533408004276" y1="-177.44104288192347"[m
+[32m+[m[32m            y2="-107.94420654280447" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="683.5501771395466" x2="614.0533408004276" y1="-177.44104288192347"[m
+[32m+[m[32m            y2="-107.94420654280447" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="171.55017713954658" x2="102.05334080042758" y1="78.55895711807653"[m
+[32m+[m[32m            y2="148.05579345719553" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="427.5501771395466" x2="358.0533408004276" y1="78.55895711807653"[m
+[32m+[m[32m            y2="148.05579345719553" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="683.5501771395466" x2="614.0533408004276" y1="78.55895711807653"[m
+[32m+[m[32m            y2="148.05579345719553" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="258.4358284744095" x2="228.09906783279462" y1="10.646186924515469"[m
+[32m+[m[32m            y2="40.98294756613034" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="258.4358284744095" x2="228.09906783279462" y1="-501.35381307548454"[m
+[32m+[m[32m            y2="-471.01705243386965" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="514.4358284744095" x2="484.0990678327946" y1="-501.35381307548454"[m
+[32m+[m[32m            y2="-471.01705243386965" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="770.4358284744095" x2="740.0990678327946" y1="-501.35381307548454"[m
+[32m+[m[32m            y2="-471.01705243386965" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="258.4358284744095" x2="228.09906783279462" y1="-245.35381307548454"[m
+[32m+[m[32m            y2="-215.01705243386965" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="514.4358284744095" x2="484.0990678327946" y1="-245.35381307548454"[m
+[32m+[m[32m            y2="-215.01705243386965" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="770.4358284744095" x2="740.0990678327946" y1="-245.35381307548454"[m
+[32m+[m[32m            y2="-215.01705243386965" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="258.4358284744095" x2="228.09906783279462" y1="10.646186924515469"[m
+[32m+[m[32m            y2="40.98294756613034" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="514.4358284744095" x2="484.0990678327946" y1="10.646186924515469"[m
+[32m+[m[32m            y2="40.98294756613034" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="770.4358284744095" x2="740.0990678327946" y1="10.646186924515469"[m
+[32m+[m[32m            y2="40.98294756613034" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="2.4358284744095045" x2="-27.900932167205383" y1="10.646186924515469"[m
+[32m+[m[32m            y2="40.98294756613034" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="35.41624886616098" x2="-5.966808810922494" y1="10.151780697595989"[m
+[32m+[m[32m            y2="51.53483837467946" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="35.41624886616098" x2="-5.966808810922494" y1="-501.848219302404"[m
+[32m+[m[32m            y2="-460.46516162532055" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="291.41624886616097" x2="250.0331911890775" y1="-501.848219302404"[m
+[32m+[m[32m            y2="-460.46516162532055" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="547.416248866161" x2="506.0331911890775" y1="-501.848219302404"[m
+[32m+[m[32m            y2="-460.46516162532055" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="35.41624886616098" x2="-5.966808810922494" y1="-245.848219302404"[m
+[32m+[m[32m            y2="-204.46516162532055" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="291.41624886616097" x2="250.0331911890775" y1="-245.848219302404"[m
+[32m+[m[32m            y2="-204.46516162532055" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="547.416248866161" x2="506.0331911890775" y1="-245.848219302404"[m
+[32m+[m[32m            y2="-204.46516162532055" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="35.41624886616098" x2="-5.966808810922494" y1="10.151780697595989"[m
+[32m+[m[32m            y2="51.53483837467946" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="291.41624886616097" x2="250.0331911890775" y1="10.151780697595989"[m
+[32m+[m[32m            y2="51.53483837467946" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="547.416248866161" x2="506.0331911890775" y1="10.151780697595989"[m
+[32m+[m[32m            y2="51.53483837467946" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="90.76285286976488" x2="72.92514980496989" y1="79.79001478147771"[m
+[32m+[m[32m            y2="97.6277178462727" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="90.76285286976488" x2="72.92514980496989" y1="-432.2099852185223"[m
+[32m+[m[32m            y2="-414.37228215372727" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="346.76285286976486" x2="328.9251498049699" y1="-432.2099852185223"[m
+[32m+[m[32m            y2="-414.37228215372727" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="602.7628528697649" x2="584.9251498049699" y1="-432.2099852185223"[m
+[32m+[m[32m            y2="-414.37228215372727" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="90.76285286976488" x2="72.92514980496989" y1="-176.2099852185223"[m
+[32m+[m[32m            y2="-158.3722821537273" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="346.76285286976486" x2="328.9251498049699" y1="-176.2099852185223"[m
+[32m+[m[32m            y2="-158.3722821537273" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="602.7628528697649" x2="584.9251498049699" y1="-176.2099852185223"[m
+[32m+[m[32m            y2="-158.3722821537273" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="90.76285286976488" x2="72.92514980496989" y1="79.79001478147771"[m
+[32m+[m[32m            y2="97.6277178462727" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="346.76285286976486" x2="328.9251498049699" y1="79.79001478147771"[m
+[32m+[m[32m            y2="97.6277178462727" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="602.7628528697649" x2="584.9251498049699" y1="79.79001478147771"[m
+[32m+[m[32m            y2="97.6277178462727" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <animateTransform attributeName="transform" type="translate" values="0 0;-256 256"[m
+[32m+[m[32m            keyTimes="0;1" repeatCount="indefinite" dur="5s"></animateTransform>[m
+[32m+[m[32m        </g>[m
+[32m+[m[32m        <g>[m
+[32m+[m[32m          <line x1="93.6896305353637" x2="75.71575147590588" y1="83.83758835275793"[m
+[32m+[m[32m            y2="101.81146741221576" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="93.6896305353637" x2="75.71575147590588" y1="-428.16241164724204"[m
+[32m+[m[32m            y2="-410.18853258778427" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="349.6896305353637" x2="331.7157514759059" y1="-428.16241164724204"[m
+[32m+[m[32m            y2="-410.18853258778427" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="605.6896305353637" x2="587.7157514759059" y1="-428.16241164724204"[m
+[32m+[m[32m            y2="-410.18853258778427" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="93.6896305353637" x2="75.71575147590588" y1="-172.16241164724207"[m
+[32m+[m[32m            y2="-154.18853258778424" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="349.6896305353637" x2="331.7157514759059" y1="-172.16241164724207"[m
+[32m+[m[32m            y2="-154.18853258778424" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="605.6896305353637" x2="587.7157514759059" y1="-172.16241164724207"[m
+[32m+[m[32m            y2="-154.18853258778424" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="93.6896305353637" x2="75.71575147590588" y1="83.83758835275793"[m
+[32m+[m[32m            y2="101.81146741221576" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="349.6896305353637" x2="331.7157514759059" y1="83.83758835275793"[m
+[32m+[m[32m            y2="101.81146741221576" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="605.6896305353637" x2="587.7157514759059" y1="83.83758835275793"[m
+[32m+[m[32m            y2="101.81146741221576" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="207.24941141296466" x2="167.48134532138562" y1="234.55973050121918"[m
+[32m+[m[32m            y2="274.3277965927982" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="207.24941141296466" x2="167.48134532138562" y1="-277.4402694987808"[m
+[32m+[m[32m            y2="-237.67220340720178" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="463.24941141296466" x2="423.4813453213856" y1="-277.4402694987808"[m
+[32m+[m[32m            y2="-237.67220340720178" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="719.2494114129647" x2="679.4813453213856" y1="-277.4402694987808"[m
+[32m+[m[32m            y2="-237.67220340720178" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="207.24941141296466" x2="167.48134532138562" y1="-21.440269498780822"[m
+[32m+[m[32m            y2="18.327796592798222" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="463.24941141296466" x2="423.4813453213856" y1="-21.440269498780822"[m
+[32m+[m[32m            y2="18.327796592798222" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="719.2494114129647" x2="679.4813453213856" y1="-21.440269498780822"[m
+[32m+[m[32m            y2="18.327796592798222" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="207.24941141296466" x2="167.48134532138562" y1="234.55973050121918"[m
+[32m+[m[32m            y2="274.3277965927982" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="463.24941141296466" x2="423.4813453213856" y1="234.55973050121918"[m
+[32m+[m[32m            y2="274.3277965927982" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="719.2494114129647" x2="679.4813453213856" y1="234.55973050121918"[m
+[32m+[m[32m            y2="274.3277965927982" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="69.19671201083756" x2="20.15599089926107" y1="61.52941038272999"[m
+[32m+[m[32m            y2="110.57013149430648" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="69.19671201083756" x2="20.15599089926107" y1="-450.47058961727"[m
+[32m+[m[32m            y2="-401.42986850569355" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="325.1967120108376" x2="276.15599089926104" y1="-450.47058961727"[m
+[32m+[m[32m            y2="-401.42986850569355" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="581.1967120108376" x2="532.155990899261" y1="-450.47058961727"[m
+[32m+[m[32m            y2="-401.42986850569355" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="69.19671201083756" x2="20.15599089926107" y1="-194.47058961727"[m
+[32m+[m[32m            y2="-145.42986850569352" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="325.1967120108376" x2="276.15599089926104" y1="-194.47058961727"[m
+[32m+[m[32m            y2="-145.42986850569352" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="581.1967120108376" x2="532.155990899261" y1="-194.47058961727"[m
+[32m+[m[32m            y2="-145.42986850569352" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="69.19671201083756" x2="20.15599089926107" y1="61.52941038272999"[m
+[32m+[m[32m            y2="110.57013149430648" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="325.1967120108376" x2="276.15599089926104" y1="61.52941038272999"[m
+[32m+[m[32m            y2="110.57013149430648" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="581.1967120108376" x2="532.155990899261" y1="61.52941038272999"[m
+[32m+[m[32m            y2="110.57013149430648" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="153.36870174443493" x2="103.52218176454608" y1="129.93915864820679"[m
+[32m+[m[32m            y2="179.78567862809564" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="153.36870174443493" x2="103.52218176454608" y1="-382.0608413517932"[m
+[32m+[m[32m            y2="-332.21432137190436" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="409.36870174443493" x2="359.5221817645461" y1="-382.0608413517932"[m
+[32m+[m[32m            y2="-332.21432137190436" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="665.3687017444349" x2="615.5221817645461" y1="-382.0608413517932"[m
+[32m+[m[32m            y2="-332.21432137190436" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="153.36870174443493" x2="103.52218176454608" y1="-126.06084135179321"[m
+[32m+[m[32m            y2="-76.21432137190436" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="409.36870174443493" x2="359.5221817645461" y1="-126.06084135179321"[m
+[32m+[m[32m            y2="-76.21432137190436" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="665.3687017444349" x2="615.5221817645461" y1="-126.06084135179321"[m
+[32m+[m[32m            y2="-76.21432137190436" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="153.36870174443493" x2="103.52218176454608" y1="129.93915864820679"[m
+[32m+[m[32m            y2="179.78567862809564" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="409.36870174443493" x2="359.5221817645461" y1="129.93915864820679"[m
+[32m+[m[32m            y2="179.78567862809564" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="665.3687017444349" x2="615.5221817645461" y1="129.93915864820679"[m
+[32m+[m[32m            y2="179.78567862809564" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="49.20494471467643" x2="2.7142059537850685" y1="141.75997600855746"[m
+[32m+[m[32m            y2="188.25071476944882" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="49.20494471467643" x2="2.7142059537850685" y1="-370.2400239914425"[m
+[32m+[m[32m            y2="-323.7492852305512" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="305.20494471467646" x2="258.71420595378504" y1="-370.2400239914425"[m
+[32m+[m[32m            y2="-323.7492852305512" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="561.2049447146765" x2="514.714205953785" y1="-370.2400239914425"[m
+[32m+[m[32m            y2="-323.7492852305512" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="49.20494471467643" x2="2.7142059537850685" y1="-114.24002399144254"[m
+[32m+[m[32m            y2="-67.74928523055118" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="305.20494471467646" x2="258.71420595378504" y1="-114.24002399144254"[m
+[32m+[m[32m            y2="-67.74928523055118" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="561.2049447146765" x2="514.714205953785" y1="-114.24002399144254"[m
+[32m+[m[32m            y2="-67.74928523055118" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="49.20494471467643" x2="2.7142059537850685" y1="141.75997600855746"[m
+[32m+[m[32m            y2="188.25071476944882" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="305.20494471467646" x2="258.71420595378504" y1="141.75997600855746"[m
+[32m+[m[32m            y2="188.25071476944882" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="561.2049447146765" x2="514.714205953785" y1="141.75997600855746"[m
+[32m+[m[32m            y2="188.25071476944882" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="84.6808460539986" x2="32.68305955000314" y1="-7.711036017440037"[m
+[32m+[m[32m            y2="44.28675048655542" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="84.6808460539986" x2="32.68305955000314" y1="-519.71103601744"[m
+[32m+[m[32m            y2="-467.71324951344457" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="340.6808460539986" x2="288.6830595500031" y1="-519.71103601744"[m
+[32m+[m[32m            y2="-467.71324951344457" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="596.6808460539986" x2="544.6830595500031" y1="-519.71103601744"[m
+[32m+[m[32m            y2="-467.71324951344457" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="84.6808460539986" x2="32.68305955000314" y1="-263.71103601744005"[m
+[32m+[m[32m            y2="-211.71324951344457" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="340.6808460539986" x2="288.6830595500031" y1="-263.71103601744005"[m
+[32m+[m[32m            y2="-211.71324951344457" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="596.6808460539986" x2="544.6830595500031" y1="-263.71103601744005"[m
+[32m+[m[32m            y2="-211.71324951344457" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="84.6808460539986" x2="32.68305955000314" y1="-7.711036017440037"[m
+[32m+[m[32m            y2="44.28675048655542" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="340.6808460539986" x2="288.6830595500031" y1="-7.711036017440037"[m
+[32m+[m[32m            y2="44.28675048655542" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="596.6808460539986" x2="544.6830595500031" y1="-7.711036017440037"[m
+[32m+[m[32m            y2="44.28675048655542" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="84.6808460539986" x2="32.68305955000314" y1="248.28896398255995"[m
+[32m+[m[32m            y2="300.28675048655543" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="225.38342310559023" x2="185.66602314192056" y1="109.68961591653738"[m
+[32m+[m[32m            y2="149.40701588020704" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="225.38342310559023" x2="185.66602314192056" y1="-402.3103840834626"[m
+[32m+[m[32m            y2="-362.59298411979296" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="481.3834231055902" x2="441.66602314192056" y1="-402.3103840834626"[m
+[32m+[m[32m            y2="-362.59298411979296" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="737.3834231055903" x2="697.6660231419205" y1="-402.3103840834626"[m
+[32m+[m[32m            y2="-362.59298411979296" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="225.38342310559023" x2="185.66602314192056" y1="-146.31038408346262"[m
+[32m+[m[32m            y2="-106.59298411979296" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="481.3834231055902" x2="441.66602314192056" y1="-146.31038408346262"[m
+[32m+[m[32m            y2="-106.59298411979296" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="737.3834231055903" x2="697.6660231419205" y1="-146.31038408346262"[m
+[32m+[m[32m            y2="-106.59298411979296" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="225.38342310559023" x2="185.66602314192056" y1="109.68961591653738"[m
+[32m+[m[32m            y2="149.40701588020704" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="481.3834231055902" x2="441.66602314192056" y1="109.68961591653738"[m
+[32m+[m[32m            y2="149.40701588020704" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="737.3834231055903" x2="697.6660231419205" y1="109.68961591653738"[m
+[32m+[m[32m            y2="149.40701588020704" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="172.83662370669697" x2="103.52581079778793" y1="164.45975635392284"[m
+[32m+[m[32m            y2="233.77056926283188" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="172.83662370669697" x2="103.52581079778793" y1="-347.54024364607716"[m
+[32m+[m[32m            y2="-278.2294307371681" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="428.83662370669697" x2="359.5258107977879" y1="-347.54024364607716"[m
+[32m+[m[32m            y2="-278.2294307371681" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="684.836623706697" x2="615.5258107977879" y1="-347.54024364607716"[m
+[32m+[m[32m            y2="-278.2294307371681" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="172.83662370669697" x2="103.52581079778793" y1="-91.54024364607716"[m
+[32m+[m[32m            y2="-22.229430737168116" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="428.83662370669697" x2="359.5258107977879" y1="-91.54024364607716"[m
+[32m+[m[32m            y2="-22.229430737168116" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="684.836623706697" x2="615.5258107977879" y1="-91.54024364607716"[m
+[32m+[m[32m            y2="-22.229430737168116" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="172.83662370669697" x2="103.52581079778793" y1="164.45975635392284"[m
+[32m+[m[32m            y2="233.77056926283188" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="428.83662370669697" x2="359.5258107977879" y1="164.45975635392284"[m
+[32m+[m[32m            y2="233.77056926283188" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="684.836623706697" x2="615.5258107977879" y1="164.45975635392284"[m
+[32m+[m[32m            y2="233.77056926283188" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="254.85435949520382" x2="240.10841684705935" y1="-1.209429949430282"[m
+[32m+[m[32m            y2="13.536512698714214" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="254.85435949520382" x2="240.10841684705935" y1="-513.2094299494303"[m
+[32m+[m[32m            y2="-498.4634873012858" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="510.8543594952038" x2="496.10841684705935" y1="-513.2094299494303"[m
+[32m+[m[32m            y2="-498.4634873012858" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="766.8543594952039" x2="752.1084168470593" y1="-513.2094299494303"[m
+[32m+[m[32m            y2="-498.4634873012858" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="254.85435949520382" x2="240.10841684705935" y1="-257.2094299494303"[m
+[32m+[m[32m            y2="-242.4634873012858" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="510.8543594952038" x2="496.10841684705935" y1="-257.2094299494303"[m
+[32m+[m[32m            y2="-242.4634873012858" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="766.8543594952039" x2="752.1084168470593" y1="-257.2094299494303"[m
+[32m+[m[32m            y2="-242.4634873012858" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="254.85435949520382" x2="240.10841684705935" y1="-1.209429949430282"[m
+[32m+[m[32m            y2="13.536512698714214" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="510.8543594952038" x2="496.10841684705935" y1="-1.209429949430282"[m
+[32m+[m[32m            y2="13.536512698714214" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="766.8543594952039" x2="752.1084168470593" y1="-1.209429949430282"[m
+[32m+[m[32m            y2="13.536512698714214" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <line x1="254.85435949520382" x2="240.10841684705935" y1="254.79057005056973"[m
+[32m+[m[32m            y2="269.5365126987142" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>[m
+[32m+[m[32m          <animateTransform attributeName="transform" type="translate" values="0 0;-256 256"[m
+[32m+[m[32m            keyTimes="0;1" repeatCount="indefinite" dur="10.3333333333333335s"></animateTransform>[m
+[32m+[m[32m        </g>[m
+[32m+[m[32m      </g>[m
+[32m+[m[32m    </pattern>[m
+[32m+[m[32m  </defs>[m
+[32m+[m[32m  <rect x="0" y="0" width="1084" height="322" fill="url(#pid-0.7735807359934106)"></rect>[m
+[32m+[m[32m</svg>[m
+\ No newline at end of file[m
+[1mdiff --git a/assets/img/blowfish_banner.png b/assets/img/blowfish_banner.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d97bbf2[m
+Binary files /dev/null and b/assets/img/blowfish_banner.png differ
+[1mdiff --git a/assets/img/blowfish_banner_transparent.png b/assets/img/blowfish_banner_transparent.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..73079b7[m
+Binary files /dev/null and b/assets/img/blowfish_banner_transparent.png differ
+[1mdiff --git a/assets/img/blowfish_logo.png b/assets/img/blowfish_logo.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..26fa15d[m
+Binary files /dev/null and b/assets/img/blowfish_logo.png differ
+[1mdiff --git a/assets/img/blowfish_logo_transparent.png b/assets/img/blowfish_logo_transparent.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..197a309[m
+Binary files /dev/null and b/assets/img/blowfish_logo_transparent.png differ
+[1mdiff --git a/assets/img/featured.svg b/assets/img/featured.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e4db6eb[m
+[1m--- /dev/null[m
+[1m+++ b/assets/img/featured.svg[m
+[36m@@ -0,0 +1,10 @@[m
+[32m+[m[32m<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin:auto;background:rgba(NaN, NaN, NaN, 0);display:block;z-index:1;position:relative" width="1084" height="322" preserveAspectRatio="xMidYMid" viewBox="0 0 1084 322">[m
+[32m+[m[32m  <defs>[m
+[32m+[m[32m    <pattern id="pid-0.932876709489723" x="0" y="0" width="307.20000000000005" height="307.20000000000005" patternUnits="userSpaceOnUse">[m
+[32m+[m[32m      <g transform="scale(1.2000000000000002)"><defs><g id="pat-0.13086180692764704"><polyline fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#93dbe9" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points=" -3,-2 16.5,15.5 31.5,0.5 63.5,32.5 48.5,47.5 31.5,32.5 -0.5,64.5 16.5,79.5 31.5,64.5 47.5,79.5 95.5,32.5 80.5,15.5 95.5,0.5 127.5,32.5 48.5,111.5 31.5,96.5 -0.5,128.5 16.5,143.5 31.5,127.5 63.5,160.5 80.5,143.5 63.5,128.5 159.5,32.5 144.5,15.5 159.5,0.5 175.5,16.5 192,0 208,16 224,0 256,32 240,48 224,32 207.501,48.501 223.5,64.5 207.5,80.5 176.5,47.5 144.5,80.5 159.5,96.5 175.5,80.5 191.5,96.5 159.5,128.5 127.5,96.5 95.5,127.5 111.5,143.5 127.5,127.5 175.5,176.5 159.5,192.5 127.5,160.5 111.5,176.5 95.5,160.5 63.5,192.5 31.5,160.5 16.5,175.5 31.999,191.483 0,224 16,240 32,225 64,256 80,240 64,224 79.667,208.333 95.5,192.5 111.5,207.5 95.5,224.5 111.5,239.5 127.5,256.5 143.5,240.5 127.5,224.5 143.5,208.5 175.5,240.5 191.5,224.5 175.5,208.5 207.5,176.5 224,160 208,144 191.998,160.998 175.5,144.5 207.5,112.5 240,80 256,96 223.5,128.5 256,160 239.5,176.5 256,192 240,208 224,192 207.5,208.5 223.5,224.5 207.5,240.5 223.5,256.5 240,240 259,259" stroke-dasharray="169.36095947265625 20.93225341796875 169.36095947265625 20.93225341796875 169.36095947265625 20.93225341796875 169.36095947265625 20.93225341796875 169.36095947265625 20.93225341796875 169.36095947265625 20.93225341796875 169.36095947265625 20.93225341796875 169.36095947265625 20.93225341796875 169.36095947265625 20.93225341796875 169.36095947265625 20.93225341796875 169.36095947265625 20.93225341796875 169.36095947265625 20.93225341796875 169.36095947265625 20.93225341796875 169.36095947265625 20.93225341796875 169.36095947265625 20.93225341796875">[m
+[32m+[m[32m    <animate attributeName="stroke-dashoffset" keyTimes="0;1" values="0;190.293212890625" repeatCount="indefinite" dur="7.142857142857142s"></animate>[m
+[32m+[m[32m  </polyline></g></defs><use xlink:href="#pat-0.13086180692764704" x="0" y="0"></use><use xlink:href="#pat-0.13086180692764704" x="-256" y="0"></use><use xlink:href="#pat-0.13086180692764704" x="256" y="0"></use><use xlink:href="#pat-0.13086180692764704" x="0" y="-256"></use><use xlink:href="#pat-0.13086180692764704" x="0" y="256"></use></g>[m
+[32m+[m[32m    </pattern>[m
+[32m+[m[32m  </defs>[m
+[32m+[m[32m  <rect x="0" y="0" width="1084" height="322" fill="url(#pid-0.932876709489723)"></rect>[m
+[32m+[m[32m  </svg>[m
+\ No newline at end of file[m
+[1mdiff --git a/assets/img/feautured.jpg b/assets/img/feautured.jpg[m
+[1mnew file mode 100755[m
+[1mindex 0000000..94e00d1[m
+Binary files /dev/null and b/assets/img/feautured.jpg differ
+[1mdiff --git a/assets/img/fireflies.svg b/assets/img/fireflies.svg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..dbe91ea[m
+[1m--- /dev/null[m
+[1m+++ b/assets/img/fireflies.svg[m
+[36m@@ -0,0 +1,2312 @@[m
+[32m+[m[32m<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin:auto;background:rgba(NaN, NaN, NaN, 0);display:block;z-index:1;position:relative" width="1084" height="322" preserveAspectRatio="xMidYMid" viewBox="0 0 1084 322">[m
+[32m+[m[32m    <defs>[m
+[32m+[m[32m      <pattern id="pid-0.36442665915421024" x="0" y="0" width="604.1600000000001" height="604.1600000000001" patternUnits="userSpaceOnUse">[m
+[32m+[m[32m        <g transform="scale(2.3600000000000003)"><g style="isolation:isolate"> <path id="ldp-firefly-e0e6f2276af1f-0" d="M211.351 8.129 Q 208.941 10.22 205.893 11.436 T199.122 15.721 T191.068 19.849 T182.278 24.379 T175.767 28.122 T169.136 32.001 T163.429 34.877 T158.62800000000001 39.407000000000004" fill="none" stroke="none"></path>  <path id="ldp-firefly-e0e6f2276af1f-1" d="M144.174 32.563 Q 142.94400000000002 36.345 143.809 40.509 T145.274 48.205 T145.087 53.489000000000004 T144.895 60.819 T144.601 68.235 T145.207 74.991 T145.014 83.679 T145.462 89.176" fill="none" stroke="none"></path>  <path id="ldp-firefly-e0e6f2276af1f-2" d="M158.279 152.472 Q 154.812 154.562 150.477 154.636 T143.13400000000001 157.605 T133.525 159.58 T124.052 161.048 T119.386 163.379 T110.761 165.487 T104.015 166.443 T96.759 169.77" fill="none" stroke="none"></path>  <path id="ldp-firefly-e0e6f2276af1f-3" d="M254.467 233.98600000000002 Q 258.252 232.746 261.107 229.58700000000002 T266.383 224.077 T270.509 217.448 T272.796 211.531 T275.861 203.29 T277.882 197.84 T279.645 188.568 T280.302 179.667" fill="none" stroke="none"></path>  <path id="ldp-firefly-e0e6f2276af1f-4" d="M132.193 228.965 Q 128.031 228.354 123.888 227.62 T116.318 225.377

@@ -5,8 +5,8 @@ draft: false
 description: "Post de prueba, comprobando la funcionalidad"
 tags: ["cultivo", "hongos", "psilocibina"]
 categories: ["biologia"]
-featured_image: "feautured.jpg"
-featured_image_caption: "Caption Blah Blah"
+featureimage: "https://remlu.cc/posts/cubensis/DSC_5276.jpg"
+feautureimagecaption: "test"
 ---
 
 ## Cubensis
